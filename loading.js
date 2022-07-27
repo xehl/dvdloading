@@ -46,7 +46,9 @@ function move() {
   dvdLogo.style.left = x + "px";
   dvdLogo.style.top = y + "px";
 }
-setInterval(move, 5);
+setInterval(move, 2.5);
+
+changeBackgroundColor();
 
 /* change the background color of the window to a random color each time the dvdLogo div hits xMax or yMax */
 function randomColor() {
